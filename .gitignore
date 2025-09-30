@@ -55,9 +55,6 @@ desktop.ini
 data/
 !data/README.md
 
-artifacts/
-!artifacts/.gitkeep   # opcional: pra manter a pasta vazia
-
 # Se quiser manter apenas o modelo final específico, comente a linha acima
 # e ignore por padrão arquivos grandes:
 # *.joblib
