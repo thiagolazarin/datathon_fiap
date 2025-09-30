@@ -15,6 +15,10 @@ Pipeline completo de Machine Learning para predição de contratação de candid
 
 ---
 
+## Diagrama do projeto
+
+![Diagrama do projeto](img/diagrama_projeto.png)
+
 ## 🧱 Stack
 - Python 3.11  
 - FastAPI  
