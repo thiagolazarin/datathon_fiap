@@ -1,0 +1,15 @@
+[run]
+branch = True
+source =
+    app
+    src
+omit =
+    src/preprocessing/*          # CLIs de ingest
+    src/training/*               # treino/avaliação
+    src/feature_engineering/gold.py
+    src/feature_engineering/prospects_labels.py
+    tests/*
+
+[report]
+show_missing = True
+precision = 2

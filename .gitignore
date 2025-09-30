@@ -1,0 +1,71 @@
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Venvs
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb-*
+
+# Tests & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# Logs
+logs/
+*.log
+
+# =========================
+# Editor/OS
+# =========================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Env & Secrets
+# =========================
+.env
+.env.*
+!.env.example   # mantenha um exemplo sem segredos
+
+# =========================
+# Data & Artifacts
+# =========================
+data/
+!data/README.md
+
+artifacts/
+!artifacts/.gitkeep   # opcional: pra manter a pasta vazia
+
+# Se quiser manter apenas o modelo final específico, comente a linha acima
+# e ignore por padrão arquivos grandes:
+# *.joblib
+# *.pkl
+# *.bin
+
+# =========================
+# Docker / Postgres volumes
+# =========================
+pgdata/
+*.tar
